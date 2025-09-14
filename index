@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Style Website</title>
+    <style>
+        body {
+            background-image: url('dark_paper_texture.jpg'); /* Replace with your dark paper texture image */
+            background-size: cover;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .social-button {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+        }
+
+        .social-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-button img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="#" class="social-button">
+            <img src="vk_icon.png" alt="VK">  <!-- Replace with VK icon URL -->
+            VK
+        </a>
+        <a href="#" class="social-button">
+            <img src="telegram_icon.png" alt="Telegram"> <!-- Replace with Telegram icon URL -->
+            Telegram
+        </a>
+        <a href="#" class="social-button">
+            <img src="pinterest_icon.png" alt="Pinterest"> <!-- Replace with Pinterest icon URL -->
+            Pinterest
+        </a>
+        <a href="#" class="social-button">
+            <img src="tiktok_icon.png" alt="TikTok"> <!-- Replace with TikTok icon URL -->
+            TikTok
+        </a>
+    </div>
+</body>
+</html>
